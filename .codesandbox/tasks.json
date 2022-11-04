@@ -1,6 +1,6 @@
 {
   // These tasks will run in order when initializing your CodeSandbox project.
-  "setupTasks": ["install"],
+  "setupTasks": ["cd ui.sdk && yarn"],
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
@@ -8,10 +8,6 @@
       "name": "cd ui.sdk && yarn start",
       "command": "cd ui.sdk && yarn start",
       "runAtStart": true
-    },
-    "install": {
-      "name": "cd ui.sdk && yarn",
-      "command": "cd ui.sdk && yarn"
     }
   }
 }
